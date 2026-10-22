@@ -4,7 +4,7 @@ import axios from 'axios';
 // Create an instance of axios with default settings
 const axiosInstance = axios.create({
   baseURL: `${process.env.NEXT_PUBLIC_BASE_URL}/api`,
-  // baseURL: `http://localhost:4000/api`,
+  // baseURL: `http://localhost:3000/api`,
   withCredentials: true,
 });
 
